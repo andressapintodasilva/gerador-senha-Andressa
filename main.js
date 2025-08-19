@@ -25,16 +25,3 @@ function aumentaTamanho(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
