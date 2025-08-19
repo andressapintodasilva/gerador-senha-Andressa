@@ -23,5 +23,13 @@ function aumentaTamanho(){
     geraSenha();
 }
 
+const campoSenha=document.querySelector('#camposenha');
+const letrasMaiusculas='ABCDEFGHIJKLMNOPQRSTUVYXWZ'
+const letrasMinusculas='abcdefghijklmnopqrstuvyxwz'
+const numeros='0123456789'
+const simbolos='!@#$%¨&*()_+/?'
+geraSenha();
 
-
+function geraSenha(){
+    
+}
