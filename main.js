@@ -31,5 +31,12 @@ const simbolos='!@#$%¨&*()_+/?'
 geraSenha();
 
 function geraSenha(){
-    
+  let senha = '';
+  for (let i=0; i<tamanhoSenha; i++){
+    let numeroAleatorio = math.random()*letrasMaiusculas.length;
+   numeroAleatorio= math.floor(numeroAleatorio);
+   senha=senha + letrasMaiusculas[numeroAleatorio];
+  }
+campoSenha.volue=senha;
+   
 }
