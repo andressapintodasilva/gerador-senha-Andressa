@@ -23,9 +23,6 @@ function aumentaTamanho() {
     geraSenha();
 }
 
-const campoSenha = document.querySelector('#campo-senha');
-const checkbox = document.querySelectorAll('.checkbox');
-
 for (i=0; i<checkbox.length; i++){
     checkbox[i]. onclick = geraSenha;
 }
@@ -61,6 +58,6 @@ if (checkbox[1].checked){
         senha = senha + alfabeto[numeroAleatorio];
     }
     campoSenha.value = senha;
-
+classivicaSenha();
 }
 
